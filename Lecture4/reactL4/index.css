@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 0.5px solid black;
+}
+
+.logo {
+    width: 130px;
+}
+
+.nav-items {
+
+    font-size: 20px;
+}
+
+.nav-items >ul {
+    display: flex;
+}
+
+.nav-items>ul>li {
+    margin: 5px;
+    padding: 15px;  
+    list-style-type: none;  
+}
+
+.search {
+    margin: 5px;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-card {
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.res-card:hover {
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+.res-card h4{
+    display: block;
+    max-width: 100%;
+    font-size: 16px; /* Ensures consistent text behavior */
+    white-space: normal; /* Allows wrapping */
+    word-break: normal; /* Prevents breaking words */
+    overflow-wrap: break-word; /* Moves full words down */
+    text-align: left; 
+}
+
+.res-logo {
+    width: 100%;
+}
